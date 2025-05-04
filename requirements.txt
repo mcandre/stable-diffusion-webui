@@ -31,4 +31,5 @@ tomesd
 torch
 torchdiffeq
 torchsde
-transformers==4.30.2
+transformers==4.50.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
